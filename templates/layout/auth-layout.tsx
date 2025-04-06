@@ -86,7 +86,7 @@ const Layout: FC<Props> = ({ style, children, activeIndex }) => {
   const previousChild = previousIndex !== null ? children[previousIndex] : null;
 
   return (
-    <Animated.View style={[styles.container, containerAnimatedStyle, style, {  }]}>
+    <Animated.View style={[styles.container, containerAnimatedStyle, style]}>
       {previousChild && isAnimating && previousIndex !== null && (
         <Animated.View 
           style={[
