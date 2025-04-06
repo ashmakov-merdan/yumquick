@@ -6,13 +6,13 @@ interface Props {
   value: string
   color?: string
   size?: number
+  fontFamily?: string
 }
 
-const Paragraph: FC<Props> = ({ value, size=14, color=colors.font }) => {
+const Paragraph: FC<Props> = ({ value, fontFamily="Light", size=14, color=colors.font }) => {
   return <Text style={{
-    fontFamily: "Light",
+    fontFamily: fontFamily,
     fontSize: size,
-    fontWeight: "light",
     color: color
   }}>{value}</Text>
 };

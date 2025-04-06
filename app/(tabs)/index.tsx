@@ -1,11 +1,12 @@
+import { Categories } from "@/components";
+import { Cart, Notifications, Profile } from "@/components/home";
 import { Description, Heading } from "@/shared";
-import { BellIcon, CartIcon, PersonIcon } from "@/shared/icons";
 import colors from "@/styles/colors";
 import { CommonLayout } from "@/templates";
 import greeting from "@/utils/greeting";
 import { Tabs } from "expo-router";
 import { FC, Fragment } from "react";
-import { Text, TouchableOpacity, View } from "react-native";
+import { Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 const HomeScreen: FC = () => {
@@ -31,36 +32,9 @@ const HomeScreen: FC = () => {
                     <Description value={description} color={colors.orangeBase} />
                   </View>
                   <View style={{ flexDirection: "row", gap: 8 }}>
-                    <TouchableOpacity activeOpacity={0.7} style={{
-                      width: 28,
-                      height: 28,
-                      justifyContent: "center",
-                      alignItems: "center",
-                      backgroundColor: colors.font2,
-                      borderRadius: 10
-                    }}>
-                      <CartIcon />
-                    </TouchableOpacity>
-                    <TouchableOpacity activeOpacity={0.7} style={{
-                      width: 28,
-                      height: 28,
-                      justifyContent: "center",
-                      alignItems: "center",
-                      backgroundColor: colors.font2,
-                      borderRadius: 10
-                    }}>
-                      <BellIcon />
-                    </TouchableOpacity>
-                    <TouchableOpacity activeOpacity={0.7} style={{
-                      width: 28,
-                      height: 28,
-                      justifyContent: "center",
-                      alignItems: "center",
-                      backgroundColor: colors.font2,
-                      borderRadius: 10
-                    }}>
-                      <PersonIcon />
-                    </TouchableOpacity>
+                    <Cart />
+                    <Notifications />
+                    <Profile />
                   </View>
                 </View>
               </View>
@@ -71,7 +45,7 @@ const HomeScreen: FC = () => {
       <View style={{ flex: 1, backgroundColor: colors.yellowBase }}>
         <CommonLayout>
           <View>
-            <Text>Home Screen</Text>
+            <Categories />
           </View>
         </CommonLayout>
       </View>
