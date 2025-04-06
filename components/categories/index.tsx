@@ -13,7 +13,7 @@ const Categories: FC = () => {
       paddingHorizontal: 36
     }}
     keyExtractor={(item) => `category-${item.id}`}
-    renderItem={({ item }) => <CategoryCard {...item} />}
+    renderItem={({ item, index }) => <CategoryCard category={item} delay={index * 100} />}
   />
 };
 
