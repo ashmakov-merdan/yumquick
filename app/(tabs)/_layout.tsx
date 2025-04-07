@@ -1,4 +1,4 @@
-import { HomeIcon } from "@/shared/icons";
+import { CheckoutIcon, ContactIcon, HeartIcon, HomeIcon } from "@/shared/icons";
 import { BottomTab, Header } from "@/templates";
 import { Tabs } from "expo-router";
 import { FC } from "react";
@@ -29,15 +29,15 @@ const TabLayout: FC = () => {
         options={{
           headerShown: true,
           title: "My favorites",
-          tabBarIcon: ({ color }) => <HomeIcon color={color} size={24} />
+          tabBarIcon: ({ color }) => <HeartIcon color={color} size={24} />
         }}
       />
       <Tabs.Screen
-        name={"checkout"}
+        name={"orders"}
         options={{
           headerShown: true,
-          title: "Checkout",
-          tabBarIcon: ({ color }) => <HomeIcon color={color} size={24} />
+          title: "Orders",
+          tabBarIcon: ({ color }) => <CheckoutIcon color={color} size={24} />
         }}
       />
       <Tabs.Screen
@@ -45,7 +45,7 @@ const TabLayout: FC = () => {
         options={{
           headerShown: true,
           title: "Contact Us",
-          tabBarIcon: ({ color }) => <HomeIcon color={color} size={24} />
+          tabBarIcon: ({ color }) => <ContactIcon color={color} size={24} />
         }}
       />
     </Tabs>

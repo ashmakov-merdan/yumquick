@@ -8,7 +8,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 const icons = (color: string) => ({
   index: <HomeIcon color={color} size={28} />,
   favorites: <HeartIcon color={color} size={28} />,
-  checkout: <CheckoutIcon color={color} size={28} />,
+  orders: <CheckoutIcon color={color} size={28} />,
   contact: <ContactIcon color={color} size={28} />
 })
 
