@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12171B0042C74D5F970429D4 /* SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AFAB011896D4022AF217ED2 /* SemiBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		6118F3CCE1484383B68962B0 /* ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 942680B4DFCB42C588C54611 /* ExtraBold.ttf */; };
+		918931A570C84EE591B80EA6 /* Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1155E118B21D450A870182ED /* Medium.ttf */; };
 		96905EF65AED1B983A6B3ABC /* libPods-yumquick.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-yumquick.a */; };
+		9694B6E00F4C4B7D9763BB5E /* Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C111A11B8E74547B7FDC151 /* Bold.ttf */; };
+		A40AB4351A934F2E95D6B869 /* Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F074275B93D451BB6135A5E /* Regular.ttf */; };
 		A5FC909D3752451890D70A97 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF9B6DF98847A2A4E6D5B5 /* noop-file.swift */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		B441884973B86C8C6B4821DE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0F4BFA2DA65158DA055A1445 /* PrivacyInfo.xcprivacy */; };
-		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		A40AB4351A934F2E95D6B869 /* Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F074275B93D451BB6135A5E /* Regular.ttf */; };
-		918931A570C84EE591B80EA6 /* Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1155E118B21D450A870182ED /* Medium.ttf */; };
-		9694B6E00F4C4B7D9763BB5E /* Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C111A11B8E74547B7FDC151 /* Bold.ttf */; };
-		12171B0042C74D5F970429D4 /* SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AFAB011896D4022AF217ED2 /* SemiBold.ttf */; };
-		ED3A1B53D09845F5B7B80FBA /* Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF073DE1F8045C99BBDD546 /* Black.ttf */; };
-		CEA5A59FD55148ACBD2D5DA9 /* Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCFAECBC6F28473189F9A701 /* Light.ttf */; };
-		FE0D682C1F7B4DC1A1A74FFA /* Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E06D29920D2747E58B486D3E /* Thin.ttf */; };
 		B839F7F401B347B38B0708EE /* ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B86C894444784149B2F4E4BA /* ExtraLight.ttf */; };
-		6118F3CCE1484383B68962B0 /* ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 942680B4DFCB42C588C54611 /* ExtraBold.ttf */; };
+		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		CEA5A59FD55148ACBD2D5DA9 /* Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCFAECBC6F28473189F9A701 /* Light.ttf */; };
+		ED3A1B53D09845F5B7B80FBA /* Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF073DE1F8045C99BBDD546 /* Black.ttf */; };
+		FE0D682C1F7B4DC1A1A74FFA /* Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E06D29920D2747E58B486D3E /* Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F4BFA2DA65158DA055A1445 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = yumquick/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1155E118B21D450A870182ED /* Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Medium.ttf; path = ../assets/fonts/Medium.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* yumquick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yumquick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = yumquick/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = yumquick/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = yumquick/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = yumquick/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = yumquick/main.m; sourceTree = "<group>"; };
+		4EF073DE1F8045C99BBDD546 /* Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Black.ttf; path = ../assets/fonts/Black.ttf; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-yumquick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yumquick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFAB011896D4022AF217ED2 /* SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SemiBold.ttf; path = ../assets/fonts/SemiBold.ttf; sourceTree = "<group>"; };
 		6BFF9B6DF98847A2A4E6D5B5 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "yumquick/noop-file.swift"; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-yumquick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yumquick.debug.xcconfig"; path = "Target Support Files/Pods-yumquick/Pods-yumquick.debug.xcconfig"; sourceTree = "<group>"; };
+		6F074275B93D451BB6135A5E /* Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Regular.ttf; path = ../assets/fonts/Regular.ttf; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-yumquick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yumquick.release.xcconfig"; path = "Target Support Files/Pods-yumquick/Pods-yumquick.release.xcconfig"; sourceTree = "<group>"; };
+		942680B4DFCB42C588C54611 /* ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ExtraBold.ttf; path = ../assets/fonts/ExtraBold.ttf; sourceTree = "<group>"; };
+		9C111A11B8E74547B7FDC151 /* Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Bold.ttf; path = ../assets/fonts/Bold.ttf; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = yumquick/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B86C894444784149B2F4E4BA /* ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ExtraLight.ttf; path = ../assets/fonts/ExtraLight.ttf; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		CCFAECBC6F28473189F9A701 /* Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Light.ttf; path = ../assets/fonts/Light.ttf; sourceTree = "<group>"; };
+		E06D29920D2747E58B486D3E /* Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Thin.ttf; path = ../assets/fonts/Thin.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-yumquick/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		FF9B86F0C2164FA28FD64E8B /* yumquick-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "yumquick-Bridging-Header.h"; path = "yumquick/yumquick-Bridging-Header.h"; sourceTree = "<group>"; };
-		6F074275B93D451BB6135A5E /* Regular.ttf */ = {isa = PBXFileReference; name = "Regular.ttf"; path = "../assets/fonts/Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1155E118B21D450A870182ED /* Medium.ttf */ = {isa = PBXFileReference; name = "Medium.ttf"; path = "../assets/fonts/Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9C111A11B8E74547B7FDC151 /* Bold.ttf */ = {isa = PBXFileReference; name = "Bold.ttf"; path = "../assets/fonts/Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5AFAB011896D4022AF217ED2 /* SemiBold.ttf */ = {isa = PBXFileReference; name = "SemiBold.ttf"; path = "../assets/fonts/SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4EF073DE1F8045C99BBDD546 /* Black.ttf */ = {isa = PBXFileReference; name = "Black.ttf"; path = "../assets/fonts/Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CCFAECBC6F28473189F9A701 /* Light.ttf */ = {isa = PBXFileReference; name = "Light.ttf"; path = "../assets/fonts/Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E06D29920D2747E58B486D3E /* Thin.ttf */ = {isa = PBXFileReference; name = "Thin.ttf"; path = "../assets/fonts/Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B86C894444784149B2F4E4BA /* ExtraLight.ttf */ = {isa = PBXFileReference; name = "ExtraLight.ttf"; path = "../assets/fonts/ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		942680B4DFCB42C588C54611 /* ExtraBold.ttf */ = {isa = PBXFileReference; name = "ExtraBold.ttf"; path = "../assets/fonts/ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +141,23 @@
 			path = yumquick/Supporting;
 			sourceTree = "<group>";
 		};
+		D5CA8C8E48AE4BFD928AF931 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F074275B93D451BB6135A5E /* Regular.ttf */,
+				1155E118B21D450A870182ED /* Medium.ttf */,
+				9C111A11B8E74547B7FDC151 /* Bold.ttf */,
+				5AFAB011896D4022AF217ED2 /* SemiBold.ttf */,
+				4EF073DE1F8045C99BBDD546 /* Black.ttf */,
+				CCFAECBC6F28473189F9A701 /* Light.ttf */,
+				E06D29920D2747E58B486D3E /* Thin.ttf */,
+				B86C894444784149B2F4E4BA /* ExtraLight.ttf */,
+				942680B4DFCB42C588C54611 /* ExtraBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		D65327D7A22EEC0BE12398D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,23 +174,6 @@
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
-		};
-		D5CA8C8E48AE4BFD928AF931 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				6F074275B93D451BB6135A5E /* Regular.ttf */,
-				1155E118B21D450A870182ED /* Medium.ttf */,
-				9C111A11B8E74547B7FDC151 /* Bold.ttf */,
-				5AFAB011896D4022AF217ED2 /* SemiBold.ttf */,
-				4EF073DE1F8045C99BBDD546 /* Black.ttf */,
-				CCFAECBC6F28473189F9A701 /* Light.ttf */,
-				E06D29920D2747E58B486D3E /* Thin.ttf */,
-				B86C894444784149B2F4E4BA /* ExtraLight.ttf */,
-				942680B4DFCB42C588C54611 /* ExtraBold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -406,7 +406,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashmakov.yumquick;
-				PRODUCT_NAME = "yumquick";
+				PRODUCT_NAME = yumquick;
 				SWIFT_OBJC_BRIDGING_HEADER = "yumquick/yumquick-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -434,7 +434,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashmakov.yumquick;
-				PRODUCT_NAME = "yumquick";
+				PRODUCT_NAME = yumquick;
 				SWIFT_OBJC_BRIDGING_HEADER = "yumquick/yumquick-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
