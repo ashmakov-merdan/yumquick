@@ -3,6 +3,7 @@ import { Image } from "expo-image";
 import { Link } from "expo-router";
 import { FC } from "react";
 import { Text, View } from "react-native";
+import { Price } from "./components";
 
 interface Props {
   item: IMeal
@@ -22,22 +23,7 @@ const ProductCard1: FC<Props> = ({ item }) => {
           }}
           contentFit="cover"
         />
-        <View style={{
-          position: "absolute",
-          bottom: 12,
-          right: 0,
-          paddingHorizontal: 4,
-          paddingVertical: 2,
-          backgroundColor: colors.orangeBase,
-          borderTopLeftRadius: 30,
-          borderBottomLeftRadius: 30
-        }}>
-          <Text style={[{
-            fontFamily: "Regular",
-            fontSize: 12,
-            color: colors.font2
-          }]}>${price}</Text>
-        </View>
+        <Price value={price} />
       </View>
     </Link>
   )

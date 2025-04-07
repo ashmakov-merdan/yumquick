@@ -6,4 +6,5 @@ interface IMeal {
   is_best: boolean
   category: string
   rating: number
+  like: number
 }

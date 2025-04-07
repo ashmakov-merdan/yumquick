@@ -49,6 +49,18 @@
     <array>
       <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
     </array>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Regular.ttf</string>
+      <string>Medium.ttf</string>
+      <string>Bold.ttf</string>
+      <string>SemiBold.ttf</string>
+      <string>Black.ttf</string>
+      <string>Light.ttf</string>
+      <string>Thin.ttf</string>
+      <string>ExtraLight.ttf</string>
+      <string>ExtraBold.ttf</string>
+    </array>
     <key>UILaunchStoryboardName</key>
     <string>SplashScreen</string>
     <key>UIRequiredDeviceCapabilities</key>

@@ -5,13 +5,15 @@ import { Text } from "react-native";
 interface Props {
   value: string
   color?: string
+  size?: number
+  fontFamily?: string
 }
 
-const Description: FC<Props> = ({ value, color = colors.font }) => {
+const Description: FC<Props> = ({ value, color = colors.font, size=14, fontFamily="Light" }) => {
   return (
     <Text style={{
-      fontFamily: "Light",
-      fontSize: 14,
+      fontFamily: fontFamily,
+      fontSize: size,
       fontWeight: "light",
       color: color
     }}>{value}</Text>

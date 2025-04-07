@@ -6,5 +6,6 @@ import ContactIcon from "./contact-icon";
 import HeartIcon from "./heart-icon";
 import HomeIcon from "./home-icon";
 import PersonIcon from "./person-icon";
+import StarIcon from "./star-icon";
 
-export { BackIcon, BellIcon, CartIcon, CheckoutIcon, ContactIcon, HeartIcon, HomeIcon, PersonIcon };
+export { BackIcon, BellIcon, CartIcon, CheckoutIcon, ContactIcon, HeartIcon, HomeIcon, PersonIcon, StarIcon };
